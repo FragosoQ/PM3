@@ -420,7 +420,7 @@ function getCountryFlag(countryName) {
 
   const country = countryName.trim().toLowerCase();
 
-  // Mapeamento de países para códigos ISO de 2 letras
+ // Mapeamento de países para códigos ISO de 2 letras
   const countryMap = {
     'portugal': 'PT',
     'portuguesa': 'PT',
@@ -481,6 +481,10 @@ function getCountryFlag(countryName) {
     'timor-leste': 'TL',
     'timor leste': 'TL',
     'macau': 'MO',
+    'austrália': 'AU',
+    'australia': 'AU',
+    'russia': 'RU',
+    'rússia': 'RU',
     'macao': 'MO'
   };
 
